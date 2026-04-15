@@ -1,0 +1,175 @@
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
+  background:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  padding:0;
+  list-style:none;
+}
+
+.button_1{
+  height:38px;
+  background:#1dd0e8;
+  color:#fffdfd;
+  border:none;
+  padding:0 20px;
+  cursor:pointer;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#fff;
+}
+
+/* Header */
+header{
+  background:#35424a;
+  color:#fff;
+  padding-top:20px;
+  min-height:70px;
+  border-bottom:#1dafe8 3px solid;
+}
+
+header a{
+  color:#f3f2f2;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding:0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#1dbfe8;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#ccc;
+}
+
+/* Showcase */
+#showcase{
+  min-height: 400px;
+   background: url(https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #42b4c9;
+    padding-top: 150px
+}
+
+#showcase h1{
+  font-size:40px;
+}
+
+#showcase p{
+  font-size:18px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#fff;
+  background:#35424a;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:5px;
+  height:25px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  width:25%;
+  padding:10px;
+  text-align:center;
+  background:#fff;
+  margin:2%;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:20px;
+}
+
+aside#sidebar .quote input, 
+aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+  margin-bottom:10px;
+}
+
+/* Main-col */
+article#main-col{
+  float:left;
+  width:65%;
+  margin-top:20px;
+}
+
+/* Services */
+ul#services li{
+  list-style:none;
+  padding:20px;
+  border:1px solid #1d1b1b;
+  margin-bottom:10px;
+  background:#d4d1d1;
+}
+
+/* Footer */
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#fff;
+  background:#1dd0e8;
+  text-align:center;
+  clear:both;
+}
